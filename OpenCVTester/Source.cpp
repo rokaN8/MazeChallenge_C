@@ -13,7 +13,7 @@ bool PatternChecker(unsigned __int64 number, unsigned __int64 gridCount, int thr
 	auto isFilled = false;
 	auto gridHeight = static_cast<int>(sqrt(gridCount));
 	auto _tempNumber = number;
-	int blockSize = 20;
+	int blockSize = 7;
 
 	auto img = cvCreateImage(cvSize(gridHeight * blockSize, gridHeight * blockSize + blockSize * 2), 8, 3);
 	cvZero(img); // zero image to make it black
@@ -45,9 +45,11 @@ bool PatternChecker(unsigned __int64 number, unsigned __int64 gridCount, int thr
 	if ((s.val[2] > 0)) // if the colour is not black then floodFill could reach here
 	{
 		isFilled = true;
+		/*
 		stringstream ss;
 		ss << "C:\\temp\\amazon\\" << number << "_" << threadNumber << ".jpg";
 		cvSaveImage(ss.str().c_str(), img);
+		*/
 	}
 	cvReleaseImage(&img);
 	return isFilled;
