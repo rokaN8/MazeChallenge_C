@@ -24,8 +24,10 @@ Successful Paths:
 
 Solutions:
 
-3x3 Grid: 78 (different from their solution which states 74)
+3x3 Grid: 78 (different from their solution which states 74) in 0.033s
 
-4x4 Grid: 10814
+4x4 Grid: 10814 in 0.622s
 
-5x5 Grid: 
+5x5 Grid: 5695680 in 317.038s (5m17.038s)
+
+6x6 Grid: .... 
