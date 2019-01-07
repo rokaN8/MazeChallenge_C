@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+Debug/
+Release/
+x64/
+opencv2/
+OpenCVTester/opencv2/
+OpenCVTester/x64/
+OpenCVTester/Debug/
+OpenCVTester/Release/
+.vs/
