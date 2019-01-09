@@ -1,6 +1,6 @@
 # MazeChallenge_C
 ## Info
-WIP solution for Amazon Maze Challenge from (http://c.adccpt.com/#/challenges/2c9f9f0c545bb87e015494c00b11003c) converted to Python.
+WIP solution for Amazon Maze Challenge from (http://c.adccpt.com/#/challenges/2c9f9f0c545bb87e015494c00b11003c) using C++ and OpenCV.
 
 Currently a bruteforce solution working up till 5x5 grid size due to CPU time constraints.
 
