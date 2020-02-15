@@ -31,3 +31,5 @@ Solutions:
 5x5 Grid: 5695680 in 317.038s (5m17.038s)
 
 6x6 Grid: .... 
+
+C# logical approach solves 6x6 in < 2h and 5x5 in +-12s. Solution on private repo and busy optimizing for 8x8 solution.
